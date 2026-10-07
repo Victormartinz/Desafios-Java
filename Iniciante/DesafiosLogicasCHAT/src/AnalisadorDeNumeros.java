@@ -25,5 +25,7 @@ public class AnalisadorDeNumeros {
 
         System.out.println("O Maior Número foi: " + maior);
         scanner.close();
+
+        System.out.println("teste");
     }
 }
