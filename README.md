@@ -1,68 +1,68 @@
 # 🧠 Desafios Java
 
-Repositório dedicado à prática de Java através de exercícios e desafios de programação.
+Repositório criado para praticar e consolidar meus conhecimentos em Java por meio de exercícios, desafios e pequenos problemas de programação.
 
-A ideia é utilizar este espaço para transformar os conceitos estudados em código, desenvolver meu raciocínio lógico e ganhar cada vez mais familiaridade com a linguagem.
+Este repositório acompanha minha evolução durante os estudos, desde os fundamentos da linguagem até conceitos mais avançados.
 
 ## 🎯 Objetivo
 
-Fixar os conhecimentos adquiridos durante meus estudos de Java por meio da resolução de problemas práticos.
+Utilizar a prática para transformar os conceitos estudados em código, desenvolvendo principalmente:
 
-Mais do que apenas completar os exercícios, o objetivo é aprender a:
-
-- Interpretar problemas
-- Dividir problemas em etapas
-- Criar soluções utilizando lógica de programação
-- Escrever código de forma mais organizada
-- Identificar e corrigir erros
-- Desenvolver autonomia para resolver problemas
+- 🧠 Raciocínio lógico
+- 🔎 Capacidade de resolver problemas
+- 💻 Prática de programação
+- 🧩 Organização e estruturação de código
+- 🛠️ Familiaridade com a linguagem Java
+- 📈 Autonomia na resolução de problemas
 
 ## 📚 Conteúdos praticados
 
-Os desafios são baseados nos conceitos que venho estudando, incluindo:
+Os exercícios serão adicionados conforme avanço nos estudos.
 
+### Fundamentos
 - Variáveis
-- Tipos de dados
-- Entrada e saída de dados
 - Operadores
 - Estruturas condicionais
 - Estruturas de repetição
 - Arrays
-- Métodos
-- Lógica de programação
-- Resolução de problemas
-
-Conforme novos conteúdos forem estudados, novos desafios serão adicionados ao repositório.
-
-## 📈 Minha evolução
-
-Este repositório acompanha minha evolução prática com Java.
-
-Os primeiros exercícios são mais simples e focados nos fundamentos. Conforme avanço nos estudos, os desafios também se tornam mais complexos.
-
-### 🟢 Fundamentos
-- Variáveis
-- Condições
-- Laços de repetição
-- Operadores
-- Arrays
-- Métodos
-
-### 🟡 Próximos níveis
-- POO
 - Collections
-- Exceções
+- Métodos
+
+### Programação Orientada a Objetos
+- Classes e objetos
+- Atributos e métodos
+- Construtores
+- Encapsulamento
+- Herança
+- Polimorfismo
+- Abstração
+- Interfaces
+
+### Próximos conteúdos
+
+Conforme minha evolução em Java, este repositório também poderá incluir exercícios envolvendo:
+
+- Collections
+- Tratamento de exceções
 - Manipulação de arquivos
-- Outros conceitos da linguagem
+- Streams
+- APIs
+- Banco de dados
+- Spring Boot
+
+## 📈 Evolução
+
+A dificuldade dos exercícios aumenta conforme novos conceitos são estudados.
+
+A proposta não é apenas resolver os desafios, mas entender **por que a solução funciona**, identificar erros e desenvolver cada vez mais autonomia para escrever código.
 
 ## 🛠️ Tecnologias
 
 - ☕ Java
 - 💻 IntelliJ IDEA
-- 🐙 Git / GitHub
+- 🐙 Git
+- 🐙 GitHub
 
 ---
 
-> "A melhor forma de aprender programação é escrever código, encontrar problemas e tentar resolvê-los."
-
-📌 Repositório criado para fins de estudo e evolução pessoal.
+📌 **Repositório destinado à prática contínua e ao acompanhamento da minha evolução como desenvolvedor Java.**
