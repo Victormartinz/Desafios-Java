@@ -9,33 +9,25 @@ public class AnalisadorNotas {
 
         boolean notaValida = false;
 
-        do {
-            System.out.println("Digite a nota do 1° Aluno:  ");
-            notaAlunos[1] = scanner.nextDouble();
+        int contador = 1;
 
-            if(notaAlunos[1] >= 0 && notaAlunos[1] <= 10){
-                notaValida = true;
-            } else {
-                System.out.println("Digite uma Nota válida");
+        do {
+            while (contador <= 10) {
+                System.out.println("Digite a nota do " + contador + "° Aluno:  ");
+                notaAlunos[1] = scanner.nextDouble();
+
+                if(notaAlunos[1] >= 0 && notaAlunos[1] <= 10){
+                    notaValida = true;
+                    contador++;
+                } else {
+                    System.out.println("Digite uma Nota válida");
+                }
             }
+
         }while (!notaValida);
 
-//        int contador = 1;
-//
-//
-//        while (contador <= 10){
-//
-//        }
 
 
-
-//        for (int i = 1; i <= 10; i++) {
-//            if (notaAlunos[i] >= 0 && notaAlunos[i] <= 10){
-//                System.out.println("Digite a nota do " + i + "° a do Aluno: " );
-//                notaAlunos[i] = scanner.nextInt();
-//            }else {
-//                System.out.println("nota invalida, tente novamente");
-//            }
 
 
     }
