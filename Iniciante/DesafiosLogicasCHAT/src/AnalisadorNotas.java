@@ -9,12 +9,12 @@ public class AnalisadorNotas {
 
         double notaMenor = notaAlunos[0];
         double notaMaior = notaAlunos[0];
-
-        boolean notaValida = false;
+        double somaNotas = notaAlunos[0];
+        double mediaNotas = 0;
 
         int contador = 0;
 
-            while (contador < 9) {
+            while (contador < 10) {
                 System.out.println("Digite a nota do " + (contador+1) + "° Aluno:  ");
                 notaAlunos[contador] = scanner.nextDouble();
 
@@ -30,15 +30,21 @@ public class AnalisadorNotas {
                             notaMenor = notaAlunos[contador];
                         }
                     }
+                    somaNotas = somaNotas + notaAlunos[contador];
                     contador++;
                 } else {
                     System.out.println("Digite uma Nota válida");
                 }
-
             }
+
+            mediaNotas = somaNotas / 10;
+
 
         System.out.println("A Maior Nota é :" + notaMaior);
         System.out.println("A Menor Nota é : " + notaMenor);
+        System.out.println("A Soma das Nota é : " + somaNotas);
+        System.out.println("A Media das Nota é : " + mediaNotas);
+
 
     }
 
