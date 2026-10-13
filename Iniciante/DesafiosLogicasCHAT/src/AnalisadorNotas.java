@@ -9,8 +9,12 @@ public class AnalisadorNotas {
 
         double notaMenor = notaAlunos[0];
         double notaMaior = notaAlunos[0];
-        double somaNotas = notaAlunos[0];
+        double somaNotas = 0;
         double mediaNotas = 0;
+
+        int contadorAprovados = 0;
+        int contadorRecuperacao = 0;
+        int contadorReprovados = 0;
 
         int contador = 0;
 
@@ -30,11 +34,21 @@ public class AnalisadorNotas {
                             notaMenor = notaAlunos[contador];
                         }
                     }
+
+                    if (notaAlunos[contador] >= 7){
+                        contadorAprovados++;
+                    }else if(notaAlunos[contador] >=5){
+                        contadorRecuperacao++;
+                    }else {
+                        contadorReprovados++;
+                    }
+
                     somaNotas = somaNotas + notaAlunos[contador];
                     contador++;
                 } else {
                     System.out.println("Digite uma Nota válida");
                 }
+
             }
 
             mediaNotas = somaNotas / 10;
@@ -44,10 +58,10 @@ public class AnalisadorNotas {
         System.out.println("A Menor Nota é : " + notaMenor);
         System.out.println("A Soma das Nota é : " + somaNotas);
         System.out.println("A Media das Nota é : " + mediaNotas);
-
-
+        System.out.println("A Quantidade de Alunos Aprovados: " + contadorAprovados);
+        System.out.println("A Quantidade de Alunos em Recuperação: " + contadorRecuperacao);
+        System.out.println("A Quantidade de Alunos Reprovados: " + contadorReprovados);
     }
-
 }
 
 
